@@ -231,3 +231,33 @@ form button:hover{
 .dark header{
     background:#111827;
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 900px){
+
+    #noticias,
+    #listaNoticias{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+@media (max-width: 600px){
+
+    header{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    #noticias,
+    #listaNoticias{
+        grid-template-columns:1fr;
+    }
+
+    #conversor button{
+        width:100%;
+        margin-bottom:10px;
+    }
+
+}
