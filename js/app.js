@@ -25,3 +25,18 @@ function mostrarNoticias() {
     });
 
 }
+
+const themeBtn = document.getElementById("themeBtn");
+if (themeBtn) themeBtn.addEventListener("click", cambiarTema);
+
+function cambiarTema() {
+    document.body.classList.toggle("dark");
+    const tema = document.body.classList.contains("dark") ? "dark" : "light";
+    localStorage.setItem("theme", tema);
+}
+
+function cargarTema() {
+    if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark");
+    }
+}
