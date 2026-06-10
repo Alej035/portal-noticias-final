@@ -19,6 +19,8 @@ async function login(e) {
         })
     });
 
-    const data = await respuesta.json();
-    console.log(data);
+    if (respuesta.ok) {
+        const data = await respuesta.json();
+        sessionStorage.setItem("admin", JSON.stringify(data));
+    }
 }
