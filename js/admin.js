@@ -1,3 +1,7 @@
+if (!sessionStorage.getItem("admin")) {
+    window.location.href = "login.html";
+}
+
 document
     .getElementById("logoutBtn")
     .addEventListener("click", () => {
