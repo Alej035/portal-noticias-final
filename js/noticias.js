@@ -7,17 +7,17 @@ const noticiasIniciales = [
 {
     titulo: "La inteligencia artificial revoluciona el mercado",
     descripcion: "ChatGPT y otras herramientas de IA están transformando la forma en que trabajamos.",
-    imagen: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=250&fit=crop"
+    imagen: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop"
 },
 {
     titulo: "El dólar blue sigue en alza",
     descripcion: "La cotización del dólar informal superó nuevos máximos en el mercado argentino.",
-    imagen: "https://images.unsplash.com/photo-1604594849809-dfedbc827105?w=400&h=250&fit=crop"
+    imagen: "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=400&h=250&fit=crop"
 },
 {
     titulo: "River y Boca definen el Superclásico",
     descripcion: "El clásico más esperado del fútbol argentino se jugará este fin de semana en el Monumental.",
-    imagen: "https://images.unsplash.com/photo-1551958219-acbc630e2914?w=400&h=250&fit=crop"
+    imagen: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400&h=250&fit=crop"
 },
 {
     titulo: "El Congreso debate la nueva ley de educación",
@@ -27,7 +27,7 @@ const noticiasIniciales = [
 {
     titulo: "Conflicto en Medio Oriente: últimas noticias",
     descripcion: "La situación internacional se agrava mientras la comunidad mundial busca una salida diplomática.",
-    imagen: "https://media.linkedin.com/dms/image/v2/D4D12AQEClLndsx8ByQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1681884440724?e=2147483647&v=beta&t=rAk4y2hkOhAbsKCVn8l0BheqFY635EOJOCFxAXRF5aM"
+    imagen: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&h=250&fit=crop"
 }
 ];
 
