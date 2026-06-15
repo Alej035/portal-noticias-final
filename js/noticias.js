@@ -2,27 +2,27 @@ const noticiasIniciales = [
 {
     titulo: "Argentina Campeón del Mundo",
     descripcion: "La selección argentina ganó el Mundial de Qatar 2022 ante Francia en los penales.",
-    imagen: "https://d3lj9c7v4ye8wm.cloudfront.net/a1b2c3d4-0000-4000-8000-000000000001/2026/05/4d352a08-e905-4b73-b398-9de6d2fadda6/xl.webp"
+    imagen: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=250&fit=crop"
 },
 {
     titulo: "La inteligencia artificial revoluciona el mercado",
     descripcion: "ChatGPT y otras herramientas de IA están transformando la forma en que trabajamos.",
-    imagen: "https://fotos.perfil.com/2023/09/05/trim/987/555/inteligencia-artificial-cuales-son-las-regulaciones-que-se-impulsan-en-el-mundo-1646974.jpg"
+    imagen: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=250&fit=crop"
 },
 {
     titulo: "El dólar blue sigue en alza",
     descripcion: "La cotización del dólar informal superó nuevos máximos en el mercado argentino.",
-    imagen: "https://junior-report.media/wp-content/uploads/2023/09/Art.-1-Mathieu-Stern-Unsplash-1024x535.jpg"
+    imagen: "https://images.unsplash.com/photo-1604594849809-dfedbc827105?w=400&h=250&fit=crop"
 },
 {
     titulo: "River y Boca definen el Superclásico",
     descripcion: "El clásico más esperado del fútbol argentino se jugará este fin de semana en el Monumental.",
-    imagen: "https://cdn.eldestapeweb.com/eldestape/022025/1739221316174/el-deporte-argentino-jpg..jpg?cw=1500&ch=843"
+    imagen: "https://images.unsplash.com/photo-1551958219-acbc630e2914?w=400&h=250&fit=crop"
 },
 {
     titulo: "El Congreso debate la nueva ley de educación",
     descripcion: "Diputados y senadores discuten los puntos clave de la reforma educativa propuesta.",
-    imagen: "https://www.diariojunio.com.ar/wp-content/uploads/2023/11/politica.jpg"
+    imagen: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=400&h=250&fit=crop"
 },
 {
     titulo: "Conflicto en Medio Oriente: últimas noticias",
