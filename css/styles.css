@@ -147,6 +147,53 @@ header button:hover{
     background:#b91c1c;
 }
 
+/* ADMIN */
+
+.admin-acciones{
+    width:90%;
+    margin:20px auto 0;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.btn-volver,
+.btn-logout{
+    text-decoration:none;
+    border:none;
+    padding:10px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.btn-volver{
+    background:white;
+    color:#1e3a8a;
+    border:1px solid #1e3a8a;
+}
+
+.btn-volver:hover{
+    background:#1e3a8a;
+    color:white;
+}
+
+.btn-logout{
+    background:#dc2626;
+    color:white;
+}
+
+.btn-logout:hover{
+    background:#b91c1c;
+}
+
+.dark .btn-volver{
+    background:#1f1f1f;
+    color:white;
+    border:1px solid #555;
+}
+
 /* LOGIN */
 
 .login-container{
