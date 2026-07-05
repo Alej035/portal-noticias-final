@@ -1,4 +1,4 @@
-if(!sessionStorage.getItem("admin")){
+if(!localStorage.getItem("admin")){
     window.location.href = "login.html";
 }
 
@@ -70,6 +70,6 @@ function editarNoticia(index){
 }
 
 document.getElementById("logoutBtn").addEventListener("click", () => {
-    sessionStorage.removeItem("admin");
+    localStorage.removeItem("admin");
     window.location.href = "index.html";
 });
