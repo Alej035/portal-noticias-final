@@ -1,5 +1,20 @@
 const MUNDIAL_LEAGUE_ID = 4429;
 
+function horaArgentina(strTimestamp) {
+
+    const fechaUtc = new Date(strTimestamp + "Z");
+
+    return fechaUtc.toLocaleString("es-AR", {
+        timeZone: "America/Argentina/Buenos_Aires",
+        day: "2-digit",
+        month: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false
+    });
+
+}
+
 async function obtenerResultadosMundial() {
 
     const contenedor = document.getElementById("resultadosMundial");
@@ -56,7 +71,7 @@ async function obtenerProximosPartidosMundial() {
             contenedor.innerHTML += `
             <div class="partido">
                 <h4>${partido.strHomeTeam} vs ${partido.strAwayTeam}</h4>
-                <p>${partido.dateEventLocal} - ${partido.strTimeLocal.slice(0, 5)}hs</p>
+                <p>${horaArgentina(partido.strTimestamp)}hs (hora Argentina)</p>
                 <p>${partido.strVenue}</p>
             </div>
             `;
