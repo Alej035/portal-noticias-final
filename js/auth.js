@@ -21,7 +21,7 @@ async function login(e) {
 
     if (respuesta.ok) {
         const data = await respuesta.json();
-        sessionStorage.setItem("admin", JSON.stringify(data));
+        localStorage.setItem("admin", JSON.stringify(data));
         window.location.href = "admin.html";
     } else {
         alert("Credenciales incorrectas");

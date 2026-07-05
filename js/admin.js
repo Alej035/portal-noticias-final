@@ -1,4 +1,4 @@
-if(!sessionStorage.getItem("admin")){
+if(!localStorage.getItem("admin")){
     window.location.href = "login.html";
 }
 
@@ -38,8 +38,8 @@ function mostrarNoticiasAdmin(){
             <img src="${noticia.imagen}">
             <h3>${noticia.titulo}</h3>
             <p>${noticia.descripcion}</p>
-            <button onclick="eliminarNoticia(${index})">Eliminar</button>
             <button onclick="editarNoticia(${index})">Editar</button>
+            <button onclick="eliminarNoticia(${index})">Eliminar</button>
         </div>
         `;
 
@@ -70,6 +70,6 @@ function editarNoticia(index){
 }
 
 document.getElementById("logoutBtn").addEventListener("click", () => {
-    sessionStorage.removeItem("admin");
+    localStorage.removeItem("admin");
     window.location.href = "index.html";
 });
