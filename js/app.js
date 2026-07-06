@@ -4,6 +4,8 @@ function iniciar() {
     inicializarNoticias();
     mostrarNoticias();
     obtenerDolar();
+    obtenerResultadosMundial();
+    obtenerProximosPartidosMundial();
     cargarTema();
 }
 

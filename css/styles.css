@@ -99,6 +99,41 @@ header button:hover{
     font-weight:bold;
 }
 
+/* MUNDIAL */
+
+#mundial{
+    width:90%;
+    margin:20px auto;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+#mundial h2{
+    margin-bottom:15px;
+}
+
+#mundial h3{
+    margin:15px 0 10px;
+}
+
+.mundial-lista{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+.partido{
+    background:#f4f4f4;
+    border-radius:8px;
+    padding:12px 15px;
+}
+
+.partido h4{
+    margin-bottom:5px;
+}
+
 /* NOTICIAS */
 
 #noticias,
@@ -261,11 +296,16 @@ form button:hover{
 
 .dark #dolar,
 .dark #conversor,
+.dark #mundial,
 .dark .card,
 .dark form,
 .dark .login-container{
     background:#1f1f1f;
     color:white;
+}
+
+.dark .partido{
+    background:#2a2a2a;
 }
 
 .dark input,
@@ -299,6 +339,10 @@ form button:hover{
 
     #noticias,
     #listaNoticias{
+        grid-template-columns:1fr;
+    }
+
+    .mundial-lista{
         grid-template-columns:1fr;
     }
 
